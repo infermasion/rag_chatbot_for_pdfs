@@ -20,8 +20,9 @@ pip install -r requirements.txt
 ```
 ## Getting Started
 
-1.  **Add Your PDFs:** Place your PDF files into the `pdf` folder within the project directory (a sample pdf is present in the folder).
-2.  **Run the Chatbot:** Open your terminal and navigate to the project's root directory. Execute the following command:
+1. **API keys:** Add your API keys in ragchatbot.py
+2. **Add Your PDFs:** Place your PDF files into the `pdf` folder within the project directory (a sample pdf is present in the folder).
+3.  **Run the Chatbot:** Open your terminal and navigate to the project's root directory. Execute the following command:
 
     ```bash
     streamlit run ragchatbot.py [ARGUMENTS]
@@ -29,7 +30,7 @@ pip install -r requirements.txt
 
     * `[ARGUMENTS]` are optional arguments you can pass to the streamlit application. For example, you can specify a port using `--server.port 8502`.
 
-3.  **Access the Chatbot:** Once the command is executed, Streamlit will provide a local URL in the terminal. Open that URL in your web browser to access the chatbot.
-4.  **Query the pdf:** Ask questions to the RAG agent which will answer based on the contents of the pdf.
+4.  **Access the Chatbot:** Once the command is executed, Streamlit will provide a local URL in the terminal. Open that URL in your web browser to access the chatbot.
+5.  **Query the pdf:** Ask questions to the RAG agent which will answer based on the contents of the pdf.
 
 
