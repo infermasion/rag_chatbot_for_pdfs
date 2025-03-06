@@ -19,8 +19,8 @@ load_dotenv()
 logging.basicConfig(filename="doc_fetching_logs.log", level=logging.INFO)
 
 # Load the GROQ and OpenAI API keys
-groq_api_key = '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'
-os.environ["GOOGLE_API_KEY"] = "AIzaSyDLggVsJM9ukyY_XmPpRu7_j28IVnr24kU"
+groq_api_key = 'insert groq api key here'
+os.environ["GOOGLE_API_KEY"] = "insert google api key here"
 
 st.title("RAG-Chatbot")
 
